@@ -1,0 +1,27 @@
+2025-02-09 14:54:35.519  INFO 11908 --- [restartedMain] c.c.RecruitProApplication                : Starting RecruitProApplication using Java 21.0.5 on RockSP with PID 11908 (C:\Users\rocks\eclipse-workspace\RecruitPro\target\classes started by rocks in C:\Users\rocks\eclipse-workspace\RecruitPro)
+2025-02-09 14:54:35.521  INFO 11908 --- [restartedMain] c.c.RecruitProApplication                : No active profile set, falling back to 1 default profile: "default"
+2025-02-09 14:54:35.570  INFO 11908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09 14:54:35.570  INFO 11908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09 14:54:36.202  INFO 11908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09 14:54:36.218  INFO 11908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-02-09 14:54:36.951  INFO 11908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09 14:54:36.962  INFO 11908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09 14:54:36.963  INFO 11908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-02-09 14:54:37.048  INFO 11908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09 14:54:37.048  INFO 11908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1477 ms
+2025-02-09 14:54:37.257  INFO 11908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09 14:54:37.298  INFO 11908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2025-02-09 14:54:37.455  INFO 11908 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-09 14:54:37.538  INFO 11908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09 14:54:37.841  INFO 11908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09 14:54:37.855  INFO 11908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-09 14:54:38.428  INFO 11908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-09 14:54:38.435  INFO 11908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09 14:54:38.611  WARN 11908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09 14:54:39.241  INFO 11908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09 14:54:39.296  INFO 11908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09 14:54:39.309  INFO 11908 --- [restartedMain] c.c.RecruitProApplication                : Started RecruitProApplication in 4.148 seconds (JVM running for 4.536)
+2025-02-09 14:54:45.563  INFO 11908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-09 14:54:45.563  INFO 11908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-09 14:54:45.565  INFO 11908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-09 14:54:45.821  INFO 11908 --- [http-nio-8080-exec-1] c.c.aspects.LoginTimeAspects             : Execution Time =55
