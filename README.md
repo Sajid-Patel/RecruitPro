@@ -12,6 +12,7 @@ aims to streamline the hiring process, improve communication between students an
 employers, and maintain an organized database of job opportunities. 
 
 
+
 Objective :
 ✓ Automate the job application process through a REST API to enhance integration with 
 existing systems. 
@@ -19,6 +20,7 @@ existing systems.
 applications. 
 ✓ Facilitate seamless communication between students and employers to improve hiring 
 workflows. 
+
 
 
 
@@ -44,6 +46,9 @@ Project Structure
 Overview of Project Architecture: The project follows a layered architecture pattern, with 
 distinct layers for handling different aspects of functionality and data management. 
 
+
+
+
 Layers Description :
 
 1. Controller Layer: Responsible for handling incoming HTTP requests, processing them, 
@@ -55,6 +60,9 @@ and returning appropriate responses.
 3. DAO (Data Access Object) Layer: Responsible for interacting with the database and 
 performing CRUD operations. 
 
+
+
+
 Responsibilities of each layer 
 • Controller Layer: 
 ➢ Handle incoming HTTP requests. 
@@ -62,17 +70,20 @@ Responsibilities of each layer
 ➢ Invoke appropriate methods in the service layer. 
 ➢ Format and return HTTP responses. 
 
+
 • Service Layer: 
 ➢ Implement business logic and rules. 
 ➢ Coordinate interactions between controllers and DAOs. 
 ➢ Perform data manipulation and transformation. 
-➢ Manage transactions and ensure data integrity. 
+➢Manage transactions and ensure data integrity. 
+
 
 • DAO Layer: 
 ➢ Provide CRUD operations for accessing and modifying data. 
 ➢ Translate database queries and commands into appropriate SQL statements. 
 ➢ Handle database transactions and connections. 
 ➢ Abstract away database-specific details from the service layer. 
+
 
 Used Technology Stack 
 ✓ Backend Framework: Spring Boot 2 
@@ -83,6 +94,7 @@ Used Technology Stack
 ✓ Development Environment: Eclipse 
 ✓ API Testing Tool: Postman 
 
+
 Modules in Project 
 1. User Module 
 2. Student Module 
@@ -90,6 +102,10 @@ Modules in Project
 4. Job Application Module 
 5. Interview Module 
 In Detail About Modules and Its APIs 
+
+
+
+
 
 User Module 
 Description: This module manages operations related to user authentication and 
@@ -103,6 +119,9 @@ GET /user/allUsers: Retrieves a list of all registered users.
 GET /user/getUser/{username}: Fetches a user by username. 
 PUT /user/updateUser: Updates user details. 
 
+
+
+
 Student Module 
 Description: This module manages operations related to student registration and 
 management. 
@@ -113,6 +132,10 @@ GET /students/allStudents: Retrieves a list of all registered students.
 DELETE /students/deleteStudent/{id}: Deletes a student by ID. 
 PUT /students/updateStudent: Updates student details. 
 
+
+
+
+
 Job Posting Module 
 Description: This module handles job postings and enables institutions to manage job 
 opportunities. 
@@ -122,6 +145,10 @@ POST /job-postings/createJob: Creates a new job posting.
 GET /job-postings/allJobs: Retrieves a list of all job postings. 
 DELETE /job-postings/deleteJob/{id}: Deletes a job posting by ID. 
 PUT /job-postings/updateJob: Updates job posting details. 
+
+
+
+
 Job Application Module 
 Description: This module allows students to apply for job postings. 
 
@@ -129,11 +156,15 @@ API Endpoints:
 POST /jobApplication/apply: Submits a job application. 
 PUT /jobApplication/updateStatus/{id}/{status}: Updates the status of a job application. 
 
+
+
+
 Interview Module 
 Description: This module manages the interview process for job applications, allowing 
 students and employers to schedule and track interviews. 
+
 API Endpoints: 
 POST /interview/schedule 
 GET /interview/{id} 
 PUT /interview/updateStatus/{id}/{status 
-Sample Interview Questions 
+
