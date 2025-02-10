@@ -38,10 +38,18 @@ approved, the JobApplication status is updated to APPROVED.
 5. Scheduling an Interview: 
 o After approval, the student can schedule an interview by creating an 
 Interview entity, linked to the JobApplication. 
+
+
+
+
 Scope of the Project 
 The scope of the Campus Requirement project involves developing a REST API to manage 
 job postings and student applications, including functionalities for handling Users, Students, 
 Job Postings, and Job Applications. 
+
+
+
+
 Project Structure 
 Overview of Project Architecture: The project follows a layered architecture pattern, with 
 distinct layers for handling different aspects of functionality and data management. 
@@ -154,7 +162,7 @@ Description: This module allows students to apply for job postings.
 
 API Endpoints: 
 POST /jobApplication/apply: Submits a job application. 
-PUT /jobApplication/updateStatus/{id}/{status}: Updates the status of a job application. 
+PUT /jobApplication/updateStatus/{id}/{status}:Updates the status of a job application. 
 
 
 
@@ -166,5 +174,5 @@ students and employers to schedule and track interviews.
 API Endpoints: 
 POST /interview/schedule 
 GET /interview/{id} 
-PUT /interview/updateStatus/{id}/{status 
+PUT /interview/updateStatus/{id}/{status} 
 
